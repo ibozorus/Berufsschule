@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class kreisBerechnungAufgabe {
     public static void main(String[] args) {
 //        final  double pi = 3.14159265;
+        //Frage 1.2
         //wenn ich die PI-Zahl von Math,PI nehme, ist das Ergebnis genauer.
         double pi = Math.PI;
         Scanner durchmessereing = new Scanner(System.in);
