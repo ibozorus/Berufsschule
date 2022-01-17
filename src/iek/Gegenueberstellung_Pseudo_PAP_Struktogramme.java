@@ -1,3 +1,5 @@
+package iek;
+
 public class Gegenueberstellung_Pseudo_PAP_Struktogramme {
     public static void main(String[] args) {
 

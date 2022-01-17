@@ -1,3 +1,5 @@
+package iek;
+
 import java.util.Scanner;
 
 public class unterricht01 {
