@@ -107,9 +107,62 @@ public class portoermittlung {
         } while (control);
     }
 
+    public static void aufgabe4(){
+        Scanner input = new Scanner(System.in);
+        Scanner input2 = new Scanner(System.in);
+        boolean control = true;
+        do {
+
+            System.out.println("Wollen Sie Gewicht eingeben? Geben Sie entweder j oder n ein.");
+
+            String antwort = input2.nextLine();
+            String porto = null;
+            if (antwort.equals("j")) {
+                System.out.println("Geben Sie das Porto mit zwei Nachkommastellen ein!");
+                porto = input.nextLine();
+            }
+            else{
+                System.out.println("Das Programm wird gestoppt!");
+                break;
+            }
+            switch (porto) {
+                case "0":
+                    System.out.println("Programm wird gestoppt");
+                    control = false;
+                    break;
+                case "1,00":
+                    System.out.println("Maximales Gewicht: 20g");
+                    break;
+                case "1,70":
+                    System.out.println("Maximales Gewicht: 50g");
+                    break;
+                case "2,40":
+                    System.out.println("Maximales Gewicht: 100g");
+                    break;
+                case "3,20":
+                    System.out.println("Maximales Gewicht: 250g");
+                    break;
+                case "4,00":
+                    System.out.println("Maximales Gewicht: 500g");
+                    break;
+                case "4,80":
+                    System.out.println("Maximales Gewicht: 1000g");
+                    break;
+                default:
+                    System.out.println("Ungültiger Wert");
+                    break;
+            }
+        } while (control);
+    }
+
+    public static void aufgabe5(){
+
+    }
+
     public static void main(String[] args) {
 //        aufgabe1();
 //        aufgabe2();
-        aufgabe3();
+//        aufgabe3();
+        aufgabe4();
     }
 }
