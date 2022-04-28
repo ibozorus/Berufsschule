@@ -100,8 +100,8 @@ public class unterricht01 {
     }
 
     public static void main(String[] args) {
-        Hello();
-//        aufgabe1();
+  //     Hello();
+       aufgabe1();
 //        aufgabe2();
 //        aufgabe3();
 //        aufgabe4();
