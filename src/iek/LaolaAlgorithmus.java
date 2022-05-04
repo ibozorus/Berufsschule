@@ -33,8 +33,27 @@ public class LaolaAlgorithmus {
 
     }
 
+    /*publ ic static void dualInDez(){
+        System.out.println("Gib eine duale Zahl ein!");
+        
+        Scanner input = new Scanner(System.in);
+        
+        String dual = input.nextLine();
+        
+        double ergebnis = 0;
+
+        int zaehler = 0;
+        for(int i = dual.length() - 1; i>=0;i--){
+            ergebnis = ergebnis + (Double.parseDouble(dual.charAt(i)) * Math.pow(2, zaehler ));
+            zaehler ++;
+        }
+
+        System.out.println(ergebnis);
+    } */
+
     public static void main(String[] args) {
-        dezInDual();
+       dezInDual();
+       // dualInDez();
 
     }
 }
