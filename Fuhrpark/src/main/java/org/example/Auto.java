@@ -30,12 +30,12 @@ public class Auto {
     }
 
     public void beschleunigen() {
-        if(tank <= 0 ){
+        if (tank <= 0) {
             System.out.println("TANK LEER!");
             return;
         }
         v = v + 50;
-        if(v > vMax){
+        if (v > vMax) {
             v = vMax;
         }
         tank = tank - 5;
@@ -43,7 +43,7 @@ public class Auto {
 
     public void bremsen() {
         v = v - 50;
-        if(v < 0){
+        if (v < 0) {
             v = 0;
         }
     }
