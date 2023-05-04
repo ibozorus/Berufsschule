@@ -43,6 +43,6 @@ public class Kunde extends Person {
 
     @Override
     public void sterben() {
-
+        return "Deine Mudda"
     }
 }
