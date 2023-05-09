@@ -20,7 +20,6 @@ public class Kunde extends Person {
     public int getKundenNr() {
         return kundenNr;
     }
-
     public void setKundenNr(int kundenNr) {
         this.kundenNr = kundenNr;
     }
@@ -43,6 +42,6 @@ public class Kunde extends Person {
 
     @Override
     public void sterben() {
-        return "Deine Mudda";
+        System.out.println("zort")
     }
 }

@@ -24,6 +24,6 @@ public class Mitarbeiter extends Person{
     
     @Override
     public void sterben() {
-//h
+
     }
 }
