@@ -42,6 +42,6 @@ public class Kunde extends Person {
 
     @Override
     public void sterben() {
-        System.out.println("zort")
+        System.out.println("zort");
     }
 }
