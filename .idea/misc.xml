@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/Fuhrpark/pom.xml" />
         <option value="$PROJECT_DIR$/MitarbeiterundAutosStatic/pom.xml" />
+        <option value="$PROJECT_DIR$/AbstraktDrucker/pom.xml" />
+        <option value="$PROJECT_DIR$/interfaces/pom.xml" />
+        <option value="$PROJECT_DIR$/lk_richter/pom.xml" />
       </list>
     </option>
   </component>

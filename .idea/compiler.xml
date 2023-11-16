@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lk_richter" />
+        <module name="interfaces" />
         <module name="Fuhrpark" />
         <module name="MitarbeiterundAutosStatic" />
+        <module name="AbstraktDrucker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
